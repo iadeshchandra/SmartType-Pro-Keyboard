@@ -6,12 +6,12 @@
 -->
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Name of Android spell checker service. The app name should not be translated. -->
-    <string name="spell_checker_service_name">LeanType Spell Checker</string>
-    <string name="ime_name">LeanType</string>
+    <string name="spell_checker_service_name">SmartType Pro Keyboard Spell Checker</string>
+    <string name="ime_name">SmartType Pro Keyboard</string>
     <!-- Title for IME settings screen. The app name should not be translated. -->
-    <string name="ime_settings">LeanType Settings</string>
+    <string name="ime_settings">SmartType Pro Keyboard Settings</string>
     <!-- Title for the spell checking service settings screen. The app name should not be translated. -->
-    <string name="android_spell_checker_settings">LeanType Spell Checker Settings</string>
+    <string name="android_spell_checker_settings">SmartType Pro Keyboard Spell Checker Settings</string>
     <!-- Option to provide vibrate/haptic feedback on keypress -->
     <string name="vibrate_on_keypress">Vibrate on keypress</string>
     <!-- Option to provide vibrate/haptic feedback on keypress even in do not disturb mode -->
@@ -399,7 +399,7 @@
     <string name="disable_network_summary">Internal lock: Blocks all network requests from this app. To revoke permission entirely, use system App Info settings.</string>
     <string name="open_app_info">Open System App Info</string>
     <string name="open_app_info_summary">Manage permissions and battery usage in Android settings</string>
-    <string name="gemini_network_disabled">Network access is disabled in LeanType settings</string>
+    <string name="gemini_network_disabled">Network access is disabled in SmartType Pro Keyboard settings</string>
     <string name="ai_provider_title">AI Provider</string>
     <string name="ai_provider_summary">Select AI service for proofreading</string>
     <string name="ai_provider_gemini">Google Gemini</string>
@@ -905,10 +905,10 @@ New dictionary:
     <string name="theme_name_violette" tools:keep="@string/theme_name_violette">Violette</string>
     <!-- Theme name for user-defined theme -->
     <string name="theme_name_user" tools:keep="@string/theme_name_user">User-Defined</string>
-    <!-- Theme name for LeanBitLab Light theme -->
-    <string name="theme_name_leanbitlab_light" tools:keep="@string/theme_name_leanbitlab_light">LeanBitLab Light</string>
-    <!-- Theme name for LeanBitLab Dark theme -->
-    <string name="theme_name_leanbitlab_dark" tools:keep="@string/theme_name_leanbitlab_dark">LeanBitLab Dark</string>
+    <!-- Theme name for SmartType Pro Light theme -->
+    <string name="theme_name_leanbitlab_light" tools:keep="@string/theme_name_leanbitlab_light">SmartType Pro Light</string>
+    <!-- Theme name for SmartType Pro Dark theme -->
+    <string name="theme_name_leanbitlab_dark" tools:keep="@string/theme_name_leanbitlab_dark">SmartType Pro Dark</string>
     <!-- Theme name for user-defined theme night mode theme -->
     <!-- Text when determining color automatically -->
     <string name="auto_user_color">Choose color automatically</string>
