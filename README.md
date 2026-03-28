@@ -1,157 +1,110 @@
-# LeanType
+# SmartType Pro Keyboard
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/leantype_banner_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/images/leantype_banner_light.svg">
-  <img alt="LeanType Banner" src="docs/images/leantype_banner_light.svg">
-</picture>
+*[SmartType Pro Banner Placeholder]*
 
-[![Download](https://img.shields.io/github/v/release/LeanBitLab/HeliboardL?label=Download&style=for-the-badge&color=7C4DFF)](https://github.com/LeanBitLab/HeliboardL/releases/latest) [![Downloads](https://img.shields.io/github/downloads/LeanBitLab/HeliboardL/total?style=for-the-badge&color=7C4DFF&label=Downloads)](https://github.com/LeanBitLab/HeliboardL/releases) [![Stars](https://img.shields.io/github/stars/LeanBitLab/HeliboardL?style=for-the-badge&color=7C4DFF)](https://github.com/LeanBitLab/HeliboardL/stargazers)
+**[Download] [Downloads] [Stars]**
 
-**LeanType** is a fork of [HeliBoard](https://github.com/Helium314/HeliBoard) - a privacy-conscious and customizable open-source keyboard based on AOSP/OpenBoard.
+**SmartType Pro Keyboard** is a highly advanced, privacy-conscious open-source keyboard. Built on the solid foundations of HeliBoard and LeanType, this project offers a true hybrid experience: a private, offline typing core combined with optional, on-demand cloud intelligence.
 
-This fork adds **optional AI-powered features** using Gemini, Groq, and OpenAI-compatible APIs, offering a hybrid experience: a private, offline core with opt-in cloud intelligence.
+---
 
+### ✨ What's New in SmartType Pro
+* **🤖 Multi-Provider AI** - Proofread using Gemini, Groq (Llama 3, Mixtral), or OpenAI-compatible providers.
+* **🛡️ Offline AI** - Private, on-device proofreading and translation using ONNX models (Offline build only).
+* **🌐 AI Translation** - Translate selected text directly using your chosen AI provider.
+* **🧠 Custom AI Keys** - Assign custom prompts and personas (#editor, #proofread) to 10 customizable toolbar keys.
+* **⌨️ Dual Toolbar / Split Suggestions** - Option to split suggestions and toolbar for easier access.
+* **🖱️ Touchpad Mode** - Swipe spacebar up to toggle touchpad; custom sensitivity controls.
+* **🎨 Modern UI** - "Squircle" key backgrounds, refined icons, and polished aesthetics.
+* **🔄 Google Dictionary Import** - Easily import your personal dictionary words.
+* **⚙️ Enhanced Customization** - Force auto-capitalization toggle, reorganized settings, and more.
+* **🕵️ Clear Incognito Mode** - Distinct "Hat & Glasses" icon for clear visibility.
+* **🔍 Clipboard Search & Undo** - Search through your clipboard history directly from the toolbar, and undo accidental item deletions.
+* **📸 Screenshot Suggestion & Clipboard** - Suggests recently taken screenshots for quick sharing via the suggestion strip and saves them to your clipboard history.
+* **🔎 Emoji Search** - Search for emojis by name. Requires loading an Emoji Dictionary.
+* **🔒 Privacy Choices** - Choose Standard (Opt-in AI), Offline (Hard-disabled network, offline model load), or Offline Lite (Minimalist, no AI) versions.
 
+---
 
-## What's New in LeanType
+### 📸 Screenshots
+[Screenshot 1] | [Screenshot 2] | [Screenshot 3] | [Screenshot 4] | [Screenshot 5] | [Screenshot 6]
 
-- **[🤖 Multi-Provider AI](docs/FEATURES.md#supported-ai-providers)** - Proofread using **Gemini**, **Groq** (Llama 3, Mixtral), or **OpenAI-compatible** providers.
-- **[🛡️ Offline AI](docs/FEATURES.md#5-offline-proofreading-privacy-focused)** - Private, on-device proofreading and translation using ONNX models (Offline build only).
-- **🌐 AI Translation** - Translate selected text directly using your chosen AI provider.
-- **[🧠 Custom AI Keys](docs/FEATURES.md#4-custom-ai-keys--keywords)** - Assign custom prompts and personas (#editor, #proofread) to 10 customizable toolbar keys.
-- **⌨️ Dual Toolbar / Split Suggestions** - Option to split suggestions and toolbar for easier access.
-- **🖱️ Touchpad Mode** - Swipe spacebar up to toggle touchpad; custom sensitivity controls.
-- **🎨 Modern UI** - "Squircle" key backgrounds, refined icons, and polished aesthetics.
-- **🔄 Google Dictionary Import** - Easily import your personal dictionary words.
-- **⚙️ Enhanced Customization** - Force auto-capitalization toggle, reorganized settings, and more.
-- **🕵️ Clear Incognito Mode** - Distinct "Hat & Glasses" icon for clear visibility.
-- **🔍 Clipboard Search & Undo** - Search through your clipboard history directly from the toolbar, and undo accidental item deletions.
-- **📸 Screenshot Suggestion & Clipboard** - Suggests recently taken screenshots for quick sharing via the suggestion strip and saves them to your clipboard history.
-- **🔎 Emoji Search** - Search for emojis by name. *Requires loading an Emoji Dictionary.*
-- **🔒 Privacy Choices** - Choose **Standard** (Opt-in AI), **Offline** (Hard-disabled network, offline model load), or **Offline Lite** (Minimalist, no AI) versions.
+---
 
+### 📥 Download
+You can download the latest release from the GitHub Releases page or generate it directly via GitHub Actions.
 
+#### 📦 Choose Your Version
 
-## Screenshots
+**1. Standard Version (-standard-release.apk)**
+* **Features:** Full suite including AI Proofreading, AI Translation, and Gesture Library Downloader.
+* **Permissions:** Requests INTERNET permission (used strictly when you explicitly trigger AI features).
+* **Setup:** Use the built-in downloader for Gesture Typing. Configure AI keys in Settings.
 
-<table>
-  <tr>
-    <td><img src="docs/images/1.png" height="500" alt="Screenshot 1"/></td>
-    <td><img src="docs/images/2.png" height="500" alt="Screenshot 2"/></td>
-    <td><img src="docs/images/3.png" height="500" alt="Screenshot 3"/></td>
-    <td><img src="docs/images/4.png" height="500" alt="Screenshot 4"/></td>
-    <td><img src="docs/images/5.png" height="500" alt="Screenshot 5"/></td>
-    <td><img src="docs/images/6.png" height="500" alt="Screenshot 6"/></td>
-  </tr>
-</table>
+**2. Offline Version (-offline-release.apk)**
+* **Features:** All UI/UX enhancements and Offline Neural Proofreading (ONNX).
+* **Permissions:** NO INTERNET PERMISSION. Guaranteed at the OS level.
+* **Best For:** Privacy purists.
+* **Manual Setup Required:**
+    * Gesture Typing: Download library manually and load via Settings > Gesture typing.
+    * Offline AI: Download ONNX models and load via Settings > AI Integration.
 
+**3. Offline Lite Version (-offlinelite-release.apk)**
+* **Features:** All UI/UX enhancements but NO AI FEATURES.
+* **Permissions:** NO INTERNET PERMISSION. Guaranteed at the OS level.
+* **Best For:** Minimalists who want a modern keyboard without any AI components (~20MB size).
+* **Manual Setup Required:**
+    * Gesture Typing: Download library manually and load via Settings > Gesture typing.
 
-## Download
+---
 
-You can download the latest release from the [GitHub Releases](https://github.com/LeanBitLab/HeliboardL/releases) page.
+### ⌨️ Original HeliBoard Features
+* Add dictionaries for suggestions and spell check
+* Customize keyboard themes (style, colors, and background image)
+* Customize keyboard layouts
+* Multilingual typing
+* Glide typing (requires library)
+* Clipboard history
+* One-handed mode
+* Split keyboard
+* Number pad
+* Backup and restore settings
 
-### 📦 Choose Your Version
+---
 
-#### 1. Standard Version (`-standard-release.apk`)
-*   **Features:** Full suite including **AI Proofreading**, **AI Translation**, and **Gesture Library Downloader**.
-*   **Permissions:** Request `INTERNET` permission (used *only* when you explicitly use AI features).
-*   **Setup:** Use the built-in downloader for Gesture Typing. Configure AI keys in Settings.
-
-#### 2. Offline Version (`-offline-release.apk`)
-*   **Features:** All UI/UX enhancements and **Offline Neural Proofreading** (ONNX).
-*   **Permissions:** **NO INTERNET PERMISSION**. Guaranteed at OS level.
-*   **Best For:** Privacy purists.
-*   **Manual Setup Required:**
-    *   **Gesture Typing:** [Download library manually](https://github.com/erkserkserks/openboard/tree/46fdf2b550035ca69299ce312fa158e7ade36967/app/src/main/jniLibs) and load via *Settings > Gesture typing*.
-    *   **Offline AI:** Download ONNX models and load via *Settings > AI Integration*. 👉 **[See Offline Setup Instructions](docs/FEATURES.md#3-offline-proofreading-privacy-focused)**
-
-#### 3. Offline Lite Version (`-offlinelite-release.apk`)
-*   **Features:** All UI/UX enhancements but **NO AI FEATURES**.
-*   **Permissions:** **NO INTERNET PERMISSION**. Guaranteed at OS level.
-*   **Best For:** Minimalists who want a modern keyboard without any AI components (~20MB size).
-*   **Manual Setup Required:**
-    *   **Gesture Typing:** [Download library manually](https://github.com/erkserkserks/openboard/tree/46fdf2b550035ca69299ce312fa158e7ade36967/app/src/main/jniLibs) and load via *Settings > Gesture typing*.
-
-## Original HeliBoard Features
-
-<ul>
-  <li>Add dictionaries for suggestions and spell check</li>
-  <li>Customize keyboard themes (style, colors and background image)</li>
-  <li>Customize keyboard layouts</li>
-  <li>Multilingual typing</li>
-  <li>Glide typing (<i>requires library</i>)</li>
-  <li>Clipboard history</li>
-  <li>One-handed mode</li>
-  <li>Split keyboard</li>
-  <li>Number pad</li>
-  <li>Backup and restore settings</li>
-</ul>
-
-For original feature documentation, visit the [HeliBoard Wiki](https://github.com/Helium314/HeliBoard/wiki).
-
-## Setup
-
-### AI Features Setup
-
-LeanType supports multiple AI providers: **Google Gemini**, **Groq**, and **OpenAI-compatible** (OpenRouter, HuggingFace, etc.).
-
-👉 **[Read the Full AI Setup & Features Guide](docs/FEATURES.md)**
+### ⚙️ AI Features Setup
+SmartType Pro supports multiple AI providers: Google Gemini, Groq, and OpenAI-compatible (OpenRouter, HuggingFace, etc.).
 
 **Quick Start:**
-1.  Get a free key from [Google AI Studio](https://aistudio.google.com/apikey) (Gemini) or [Groq Console](https://console.groq.com/keys) (Groq).
-2.  Copy the API key.
-3.  Go to **Settings → AI Integration → Set AI Provider**.
-4.  Select your provider and paste the API Token.
-5.  Select Model and target language
+1. Get a free key from **Google AI Studio** (Gemini) or **Groq Console** (Groq).
+2. Copy the API key.
+3. Go to **Settings → AI Integration → Set AI Provider**.
+4. Select your provider and paste the API Token.
+5. Select the Model and target language.
 
-> [!IMPORTANT]
-> **Privacy**: Your input data is sent to the configured provider.
-> 👉 **[View Privacy Policies for Providers](docs/FEATURES.md#supported-ai-providers)**
-
-## Contributing
-
-For issues specific to LeanType features, please open an issue in this repository.
-
-For issues with core HeliBoard functionality, please report to the [original HeliBoard repository](https://github.com/Helium314/HeliBoard/issues).
-
-## License
-
-LeanType (as a fork of HeliBoard/OpenBoard) is licensed under **GNU General Public License v3.0**.
-
-See [LICENSE](/LICENSE) file.
-
-## Credits
-
-### Original Projects
-- **[HeliBoard](https://github.com/Helium314/HeliBoard)** by Helium314 - The excellent keyboard this fork is based on
-- [OpenBoard](https://github.com/openboard-team/openboard)
-- [AOSP Keyboard](https://android.googlesource.com/platform/packages/inputmethods/LatinIME/)
-- Original icon by [Fabian OvrWrt](https://github.com/FabianOvrWrt)
-- All [HeliBoard Contributors](https://github.com/Helium314/HeliBoard/graphs/contributors)
-
-### LeanType
-- Built with ❤️ by [LeanBitLab](https://github.com/LeanBitLab)
-
-## 🛡️ LeanBitLab Ecosystem
-
-Check out our other projects:
-👉 **[LeanBitLab Projects](https://github.com/LeanBitLab#-current-projects)**
+*Important: Your input data is sent to the configured provider only when you activate the AI features. Please view the Privacy Policies for your selected providers.*
 
 ---
 
-## Support the Development
+### 🤝 Contributing
+* For issues specific to SmartType Pro features, please open an issue in this repository.
+* For issues with core HeliBoard functionality, please report to the original HeliBoard repository.
 
-Building and maintaining privacy-focused, offline AI apps takes time and resources (test devices, server costs, etc.).
+### 📄 License
+SmartType Pro (as a fork of LeanType/HeliBoard/OpenBoard) is licensed under GNU General Public License v3.0. See the LICENSE file.
 
-If you love LeanType, please consider supporting the project!
-
-<a href="https://github.com/sponsors/LeanBitLab">
-  <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" width="150" alt="Sponsor on GitHub"/>
-</a>
-
-Your support keeps the code **100% Free and Open Source**.
+### 🏆 Credits
+**Original Projects**
+* LeanType by LeanBitLab - The excellent AI-integrated fork architecture
+* HeliBoard by Helium314 - The highly customizable privacy keyboard
+* OpenBoard & AOSP Keyboard
+* Original icon by Fabian OvrWrt
+* All HeliBoard & LeanType Contributors
 
 ---
 
-*LeanType • Privacy-focused keyboard with AI enhancements*
+### 🛡️ Creative Learning Pro Ecosystem
+**SmartType Pro Keyboard** is proudly maintained by **Creative Learning Pro**. 
+
+**Support the Development**
+Building and maintaining privacy-focused tools takes time and resources. If you find SmartType Pro useful for your daily workflow, please consider supporting the project and starring the repository to keep it 100% Free and Open Source!
